@@ -20,8 +20,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "5.8.*",
-        "inertiajs/inertia-laravel": "dev-master",
+        "illuminate/support": "5.8.*|^6.0",
+        "inertiajs/inertia-laravel": "^0.1",
         "tightenco/ziggy": "^0.7.1"
     },
     "require-dev": {
