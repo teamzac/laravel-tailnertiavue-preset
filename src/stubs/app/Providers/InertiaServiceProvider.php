@@ -24,9 +24,7 @@ class InertiaServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
-        Inertia::setRootView('layouts.app');
-        
+    {   
         Inertia::share('app', [
             //
         ]);
